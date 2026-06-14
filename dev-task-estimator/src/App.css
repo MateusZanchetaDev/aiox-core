@@ -1,0 +1,25 @@
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+select,
+button {
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.resultado {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
